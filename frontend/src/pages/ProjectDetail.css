@@ -1,0 +1,129 @@
+.project-detail-header {
+  margin-bottom: 30px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 10px;
+  color: #007bff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+.project-detail-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.prompts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.prompts-header h2 {
+  margin: 0;
+}
+
+.prompts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.prompt-item {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 6px;
+  border-left: 3px solid #007bff;
+}
+
+.prompt-item h4 {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.prompt-item p {
+  color: #666;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+}
+
+.btn-sm {
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+.empty-state-text {
+  color: #666;
+  text-align: center;
+  padding: 20px;
+}
+
+.files-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.files-header h2 {
+  margin: 0;
+}
+
+.file-upload-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.file-upload-wrapper input[type="file"] {
+  display: none;
+}
+
+.files-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.file-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 12px 15px;
+  border-radius: 6px;
+  border-left: 3px solid #28a745;
+}
+
+.file-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+}
+
+.file-name {
+  font-weight: 500;
+  color: #333;
+  font-size: 14px;
+}
+
+.file-date {
+  font-size: 12px;
+  color: #666;
+}
+
+.file-upload-note {
+  font-size: 12px;
+  color: #666;
+  margin-top: 10px;
+  font-style: italic;
+}
